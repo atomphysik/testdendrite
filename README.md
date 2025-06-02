@@ -10,9 +10,9 @@ For more information see: [https://mooseframework.inl.gov/getting_started/new_us
 ## Create a new application
 
 Create your own application to simulate
-```console
-cd {your moose project directory}
-./moose/scripts/stork.sh {aplication name}
+```bash
+>>> cd {your moose project directory}
+>>> ./moose/scripts/stork.sh {aplication name}
 ```
 This will avoid the issues of collision with the existing apps.
 
@@ -20,8 +20,8 @@ This will avoid the issues of collision with the existing apps.
 
 Clone this repository in any folders that is suitable for saving files.
 
-```console
-git clone https://github.com/atomphysik/testdendrite.git
+```bash
+>>> git clone https://github.com/atomphysik/testdendrite.git
 ```
 
 ## copy and paste these files to the new app
@@ -38,7 +38,7 @@ paste these to the directory of new application that you created
 
 Build the app and launch it by the following commands
 
-```console 
-make -j{number of cpu thread you want to use}
-./{app name}-opt -i input.i
+```bash
+>>> make -j{number of cpu thread you want to use}
+>>> ./{app name}-opt -i input.i
 ```
